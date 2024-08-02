@@ -1,5 +1,12 @@
 # Replace `@repo` everywhere with the project name
 
+## TODO
+
+- [ ] Add shared logger
+- [ ] Add Dockerization
+- [ ] Add CI/CD configuration
+- [ ] Add shared configuration for `jest`
+
 # Turborepo Tailwind CSS starter
 
 This is an official starter Turborepo.
