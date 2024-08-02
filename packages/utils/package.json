@@ -1,0 +1,16 @@
+{
+  "name": "@repo/utils",
+  "version": "0.0.0",
+  "license": "MIT",
+  "exports": {
+    "./types/*": "./types/*.ts",
+    "./types/**/*": "./types/**/*.ts"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
