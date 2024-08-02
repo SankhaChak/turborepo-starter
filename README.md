@@ -1,3 +1,5 @@
+# Replace `@repo` everywhere with the project name
+
 # Turborepo Tailwind CSS starter
 
 This is an official starter Turborepo.
