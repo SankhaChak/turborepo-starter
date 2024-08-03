@@ -1,0 +1,21 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push --skip-generate",
+    "db:migrate": "prisma migrate dev"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "prisma": "^5.17.0",
+    "@repo/typescript-config": "workspace:*"
+  }
+}

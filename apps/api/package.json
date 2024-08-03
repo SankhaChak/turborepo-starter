@@ -14,10 +14,12 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "lodash": "^4.17.21",
-    "node": "^20.16.0"
+    "node": "^20.16.0",
+    "@repo/database": "workspace:*"
   },
   "devDependencies": {
     "@repo/typescript-config": "*",
+    "@repo/utils": "workspace:*",
     "@types/cookie-parser": "^1.4.7",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
